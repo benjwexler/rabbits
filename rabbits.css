@@ -46,18 +46,23 @@
         height: 100%;
         width: 50%; 
         margin: auto;
-        border: 5px solid green; 
+        border: 5px solid green;
+        overflow: scroll;
     }
 
     .aboutImage {
         height: 100%;
         width: 50%; 
+        display: flex;
         margin: auto;
         border: 2px solid red;  
     }
     .aboutImage img {
-        height: 65%;
+        height: 100%;
         width: auto;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 2;
     }
 
 .galleryContainer {
