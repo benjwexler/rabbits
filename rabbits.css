@@ -61,9 +61,6 @@
     .aboutImage img {
         height: 100%;
         width: auto;
-        align-items: center;
-        justify-content: center;
-        flex-shrink: 2;
     }
 
 .galleryContainer {
