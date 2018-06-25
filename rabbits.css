@@ -28,8 +28,9 @@
     }
         .aboutNav {
            
-            border: 2px solid red;
+            border-right: 2px solid red;
             width: 100%;
+            margin: auto;
             
         }
 
@@ -135,7 +136,10 @@
 
 .socialMedia {
     height: 100%;
-    width: 50%; 
+    width: 10%; 
     margin: auto 0 auto auto;
-    border: 2px solid red;   
+    border: 2px solid red;  
+    display: flex;
+    flex-direction: row; 
+    min-width: 80px;
 }
