@@ -1,0 +1,85 @@
+.bossContainer {
+    width: auto;
+    height: 98vh;
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.headerContainer {
+    width: 99%;
+    height: 5%;
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: row; 
+}
+
+    .navBar {
+    height: 100%;
+    width: 20%; 
+    border: 2px solid green;
+    }
+
+.aboutContainer {
+    width: 99%;
+    height: 40%;
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+}
+
+    .text {
+        height: 100%;
+        width: 50%; 
+        margin: auto;
+        border: 5px solid green; 
+    }
+
+    .aboutImage {
+        height: 100%;
+        width: 50%; 
+        margin: auto;
+        border: 2px solid red;  
+    }
+
+.galleryContainer {
+    width: 99%;
+    height: 40%;
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+}
+
+.linksContainer {
+    width: 99%;
+    height: 10%;
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: row; 
+}
+
+    .links {
+        height: 100%;
+        width: 50%; 
+        margin: auto;
+        border: 2px solid red;   
+    }
+
+.footerContainer {
+    width: 99%;
+    height: 5%;
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: row; 
+}
+
+.socialMedia {
+    height: 100%;
+    width: 50%; 
+    margin: auto 0 auto auto;
+    border: 2px solid red;   
+}
