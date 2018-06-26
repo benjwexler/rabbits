@@ -44,11 +44,12 @@
             margin: auto;
             font-size: 26px;
             
+            
         }
 
         .aboutNav:hover {
             font-style: italic;
-            color: rgb(153, 64, 153);
+            color: #008CBA;
         }
 
 .aboutContainer {
@@ -211,11 +212,15 @@
     transition: .5s ease;
     background-color: #008CBA;
     border-radius: 90%;
+    color: white;
+    text-align: center;
+    align-content: center;
   }
 
   .photoColumns:hover 
     .overlay {
     opacity: 1;
+    align-items: center;
   }
 
   .photoColumns:hover #photo {
